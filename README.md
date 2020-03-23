@@ -1,7 +1,7 @@
-## Instruções
-
-Este é um repositório com as Docker de uso mais comum.
-
+<<<<<<< HEAD
+## Este é um repositório com as Docker de uso mais comum.
+ 
+![Dockerization](https://miro.medium.com/max/1200/1*tMcfvpY0cJs-M6cuq8pZrw.png)
 
 [Mysql](/mysql)
 
