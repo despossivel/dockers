@@ -1,0 +1,13 @@
+version: '2'
+services:
+  db:
+    image: mysql
+    #build: .
+    container_name: www-mysqldb-smgeo
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - ./mysql/:/var/lib/mysql/
+    restart: always
+    ports:
+      - 13306:3306

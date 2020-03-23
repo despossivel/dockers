@@ -1,0 +1,9 @@
+version: '2'
+services:
+  nginx:
+    build: ./docker/nginx
+    ports:
+      - '8888:80'
+    volumes:
+      - ./www:/opt/work
+    container_name: pinpper_nginx
